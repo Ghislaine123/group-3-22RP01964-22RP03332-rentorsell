@@ -4,7 +4,6 @@ use App\Http\Controllers\HouseController;
 use App\Http\Controllers\RequestController;
 use App\Http\Controllers\SellerController;
 use Illuminate\Support\Facades\Route;
-
 // Public routes
 Route::get('/', [HouseController::class, 'index'])->name('home');
 Route::get('/houses', [HouseController::class, 'index'])->name('houses.index');
