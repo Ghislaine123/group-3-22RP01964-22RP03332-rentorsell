@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\HouseRequest;
 use Illuminate\Http\Request;
 
