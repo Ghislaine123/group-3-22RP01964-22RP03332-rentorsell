@@ -66,7 +66,6 @@
                         @endif
                     </div>
                 </div>
-
                 <!-- Available Houses Section -->
                 <div>
                     <div class="flex justify-between items-center mb-4">
