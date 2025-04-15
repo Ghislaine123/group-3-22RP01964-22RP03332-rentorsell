@@ -1,13 +1,13 @@
 # 🏠 Mini House Buy or Rental System
 
-_A comprehensive web application for buying and renting houses, built with Laravel and 
+_A comprehensive web application for buying and renting houses, built with Laravel._
 
 ---
 
 ## 👩‍💼 Developers
 
-1. **GIKUNDIRO Ange Ghislaine** – 22RP01964  
-2. **URUJENI Shallon** – 22RP03332
+1. *GIKUNDIRO Ange Ghislaine* – 22RP01964  
+2. *URUJENI Shallon* – 22RP03332
 
 ---
 
@@ -18,39 +18,53 @@ _A comprehensive web application for buying and renting houses, built with Larav
 - PHP 8.2 or higher  
 - Composer  
 
+---
 
 ### 🔧 Installation Steps
 
+#### 📁 Step 1: Clone the repository
 ```bash
-# 1. Clone the repository
 git clone https://github.com/Ghislaine123/group-3-22RP01964-22RP03332-rentorsell.git
+```
 
-# 2. Navigate into the project folder
+#### 📂 Step 2: Navigate into the project folder
+```bash
 cd rentorsell
+```
 
-# 3. Install PHP dependencies
+#### 📦 Step 3: Install PHP dependencies
+```bash
 composer update
+```
 
-# 4. Link storage
+#### 🔗 Step 4: Link storage
+```bash
 php artisan storage:link
+```
 
-# 5. Run database migrations
+#### 🧱 Step 5: Run database migrations
+```bash
 php artisan migrate
+```
 
-# 6. Start Laravel development server
+#### 🚀 Step 6: Start Laravel development server
+```bash
 php artisan serve
+```
 
+---
 
 ## 🔐 Authentication Flow
 
-1. **User Registration**
-   - Register as buyer or seller
-   - Input name, email, phone, password (hashed)
+### 1. *User Registration*
+- Register as buyer or seller  
+- Provide name, email, phone, and password  
+- Passwords are securely hashed  
 
-2. **User Login**
-   - Authenticate using email and password
-   - Sanctum-based token generation
-   - Redirect based on user role
+### 2. *User Login*
+- Login using email and password  
+- Sanctum-based token authentication  
+- Redirect user based on role (buyer/seller)  
 
 ---
 
@@ -67,4 +81,17 @@ php artisan serve
 2. Browse available properties  
 3. Search and filter listings  
 4. Send requests or offers  
-5. Track request status
+5. Track request status  
+
+---
+
+## 🧪 Testing
+```bash
+php artisan test
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License – see the `LICENSE` file for details.
